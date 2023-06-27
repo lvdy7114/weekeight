@@ -51,6 +51,8 @@ header nav ul.top-nav a {
 
 footer nav ul.footer-nav a {
     color: tomato;
+    text-decoration: none;
+    
 }
 
 footer nav ul {
@@ -60,4 +62,34 @@ footer nav ul {
     justify-content: space-between;
     font-size: 30px;
     width: 100%;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-style: color lightgray, 1px solid;
+    padding-bottom: 2rem;
+}
+
+article h2 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+article a {
+    display: flex;
+    justify-content: flex-end;
+    color: tomato;
+    
+}
+
+p::first-letter {
+    font-size: 70px;
+    color: lightgray;
+    display: inline;
+}
+
+footer h2 {
+    color: lightgray;
+    font-weight: lighter;
+    font-size: x-large;
 }
