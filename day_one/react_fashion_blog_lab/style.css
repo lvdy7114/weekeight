@@ -1,0 +1,63 @@
+html {
+    border-left: 5px solid lightgray;
+}
+
+body {
+    min-height: 100% vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, main, footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+header nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 100%;
+   
+}
+
+header nav ul li {
+    display: flex;
+    
+}
+
+header nav ul.nav-menu.top-nav {
+    justify-content: space-between;
+}
+
+header nav ul.top-nav a {
+    color: lightgray;
+    background-color: floralwhite;
+}
+
+footer nav ul.footer-nav a {
+    color: tomato;
+}
+
+footer nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 100%;
+}
